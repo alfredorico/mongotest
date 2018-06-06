@@ -1,0 +1,12 @@
+development:
+  clients:
+    default:
+      uri: <%= ENV['DEV_MONGO_URI'] %>
+      options:
+production:
+  clients:
+    default:
+      uri: 'mongodb://hdesk-production:da39a3ee5e6b4b0d3255bfef95601890afd80709@rocketpinstaging-shard-00-00-gsnyq.mongodb.net:27017,rocketpinstaging-shard-00-01-gsnyq.mongodb.net:27017,rocketpinstaging-shard-00-02-gsnyq.mongodb.net:27017/rocketpin-production?ssl=true&replicaSet=RocketpinStaging-shard-0&authSource=admin&retryWrites=true'
+      options:
+
+
